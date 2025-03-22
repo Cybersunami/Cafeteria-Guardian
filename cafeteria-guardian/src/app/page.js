@@ -40,7 +40,7 @@ export default function Home() {
         alignItems: "center",
         justifyContent: "center",
         minHeight: "100vh",
-        backgroundColor: "#f7f7f7",
+        backgroundColor: "#fff",
       }}
     >
       <Box
@@ -83,14 +83,14 @@ export default function Home() {
           type="submit"
           variant="contained"
           fullWidth
-          sx={{ mt: 3, py: 1.5 }}
+          sx={{ mt: 3, py: 1.5 , backgroundColor: "#000000", color: "#fffff" }}
         >
           Log In
         </Button>
 
-        <Typography sx={{ mt: 2 }}>
+        <Typography color="#000000" sx={{ mt: 2}}>
           Don't have an account?{" "}
-          <MuiLink component={Link} href="/register" underline="hover">
+          <MuiLink component={Link} sx={{textDecoration:"none"}} href="/register" underline="hover">
             Register here
           </MuiLink>
         </Typography>

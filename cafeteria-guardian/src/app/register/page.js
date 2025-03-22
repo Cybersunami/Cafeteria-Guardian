@@ -40,7 +40,7 @@ export default function Register() {
         alignItems: "center",
         justifyContent: "center",
         minHeight: "100vh",
-        backgroundColor: "#f7f7f7",
+        backgroundColor: "#fffff",
       }}
     >
       <Box
@@ -83,7 +83,7 @@ export default function Register() {
           type="submit"
           variant="contained"
           fullWidth
-          sx={{ mt: 3, py: 1.5 }}
+          sx={{ mt: 3, py: 1.5, backgroundColor:"#000000" }}
         >
           Register
         </Button>
